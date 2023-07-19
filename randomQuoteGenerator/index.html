@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random quotes generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quote-box">
+        <h2>Quote of the day</h2>
+        <blockquote id="quote">Loading... </blockquote>
+        <span id="author-name">Loading...</span>
+        <div class="button">
+            <button onclick="getRandomQuote(apiUrl)">New Quote</button>
+            <button onclick="tweet()"><img src="twiter-logo.png">Twiter</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
